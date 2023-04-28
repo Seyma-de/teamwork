@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+ul {
+  display: inline;
+}
+li {
+  display: inline-block;
+  padding: 5px;
+  font-family: "Rubik Beastly", cursive;
+}
+a:hover {
+  background-color: #ff0078;
+}
+main {
+  height: 500px;
+  background-image: url(background.jpg);
+  background-size: cover;
+  position: relative;
+}
+.yazi {
+  position: absolute;
+  top: 30;
+  left: 30%;
+  text-align: center;
+  color: white;
+}

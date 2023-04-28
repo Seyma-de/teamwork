@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(netflix-background-image\ 1.png);
+  /* width: 1440px;
+  height: 1096px; */
+  color: white;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  margin-left: 40px;
+}
+form {
+  margin: 0 auto;
+  width: 300px;
+  background-color: black;
+  padding: 30px;
+}
+#name,
+#age,
+#email,
+#content,
+#comments {
+  margin-top: 10px;
+  height: 30px;
+  width: 300px;
+  border: none;
+  padding: 10px;
+}
+.title {
+  text-align: center;
+}
+h1 {
+  font-family: "Bowlby one SC", cursive;
+  letter-spacing: 4px;
+}
+h3 {
+  font-family: serif;
+}
+
+#sub {
+  font-size: larger;
+  border-radius: 50px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+}
+#sub:hover {
+  background-color: antiquewhite;
+  color: red;
+  border: 1px solid red;
+  box-shadow: 1px 1px 50px yellowgreen;
+}
+textarea {
+  resize: none;
+}
