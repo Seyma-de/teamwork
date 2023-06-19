@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(244, 244, 244);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.header h1 {
+  width: 40%;
+  font-size: 3rem;
+}
+.header h3 {
+  width: 60%;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.members img {
+  width: 250px;
+  box-shadow: -10px 10px 10px rgb(0, 0, 0, 0.3);
+  border-radius: 7px;
+  transition: all 0.5s;
+}
+
+.members img:hover {
+  box-shadow: 2px 2px 20px skyblue;
+}
+.members {
+  width: 33.33%;
+  justify-content: center;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+}
+.members:hover {
+  transform: scale(1.2);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 30px; */
+}
+.rotate {
+  position: absolute;
+  color: black;
+  transform: rotate(90deg);
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  position: relative;
+  width: 290px;
+  font-weight: 600;
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+}
+
+.card2,
+.card5 {
+  margin-top: 10rem;
+}
+
+.card1 .rotate {
+  right: -30px;
+  top: 70px;
+}
+.card2 .rotate {
+  right: -35px;
+  top: 70px;
+}
+.card3 .rotate {
+  right: -25px;
+  top: 45px;
+}
+.card4 .rotate {
+  right: -35px;
+  top: 55px;
+}
+.card5 .rotate {
+  right: -25px;
+  top: 45px;
+}
+.card6 .rotate {
+  right: -25px;
+  top: 45px;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header h1 {
+    width: 100%;
+  }
+  .container {
+    column-gap: 90px;
+    justify-content: center;
+  }
+  .card2,
+  .card5 {
+    margin-top: 0rem;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6 {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    column-gap: 0px;
+    flex-direction: column;
+  }
+  .rotate {
+    padding-bottom: 90px;
+  }
+}
