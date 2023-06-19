@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+}
+
+.sayfa {
+  background-color: rgb(242, 233, 254);
+  width: 950px;
+  margin: auto;
+}
+
+form {
+  border: 1px solid white;
+  background-color: rgb(242, 233, 254);
+  margin: ;
+}
+.baslik {
+  color: rgb(69, 52, 120);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+}
+#head {
+  padding-top: 10px;
+}
+#img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(118, 77, 212);
+  margin: auto;
+  width: 700px;
+  color: white;
+  padding: 20px;
+}
+.isaretli {
+  list-style-type: ;
+}
+table {
+  color: white;
+}
+.btn {
+  text-align: center;
+  border-radius: 3px;
+  background-color: darkgoldenrod;
+  margin-top: 20px;
+
+  width: 100px;
+  height: 50px;
+}
+
+.footer {
+  text-align: center;
+}
+#id {
+  text-align: center;
+}
+.cizgi {
+  border-left: 4px solid darkgoldenrod;
+  height: auto;
+  padding-left: 10px;
+  color: blanchedalmond;
+}
